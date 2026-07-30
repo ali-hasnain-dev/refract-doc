@@ -1,0 +1,12 @@
+domains:
+    - doc
+php_version: "8.4"
+framework: laravel
+framework_version: "13"
+secured: true
+services:
+    - mysql
+    - mailpit
+    - redis
+workers:
+    - vite
